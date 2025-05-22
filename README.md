@@ -1,7 +1,7 @@
-# A Modified Genetic Algorithm for Balanced Academic Curriculum Problem with Semester-Specific Availability Constraint
+# A Genetic Algorithm for Balanced Academic Curriculum Problem with Semester-Specific Availability Constraint
 
 ## Overview
-This project implements a Modified Genetic Algorithm (MGA) approach to solve the Balanced Academic Curriculum Problem (BACP) with semester-specific availability constraints. The algorithm optimizes course scheduling across academic semesters while respecting prerequisites, course limit, credit limits, and unit availability constraints.
+This project implements a Genetic Algorithm (GA) approach to solve the Balanced Academic Curriculum Problem (BACP) with semester-specific availability constraints. The algorithm optimizes course scheduling across academic semesters while respecting prerequisites, course limit, credit limits, and unit availability constraints.
 
 ## Problem Description
 The Balanced Academic Curriculum Problem involves distributing academic units across multiple semesters under the following constraints:
@@ -42,7 +42,7 @@ The Balanced Academic Curriculum Problem involves distributing academic units ac
 ## Usage
 Run the main script:
 ```
-python MGA.py
+python ga.py
 ```
 
 When prompted, select one of the available JSON files:
