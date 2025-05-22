@@ -1,0 +1,47 @@
+{
+    "units": {
+        "ICT111": {"credits": 3, "available": [2,4,6], "type": "Spine"},
+        "ICT299": {"credits": 3, "available": [2,4,6], "type": "Spine"},
+        "ICT298": {"credits": 3, "available": [1, 2,3,4,5,6], "type": "Spine"},
+        "ICT100": {"credits": 3, "available": [1,2,3,4,5,6], "type": "core"},
+        "ICT159": {"credits": 3, "available": [1,3,5], "type": "core"},
+        "ICT169": {"credits": 3, "available": [2,4,6], "type": "core"},
+        "ICT170": {"credits": 3, "available": [2,4,6], "type": "core"},
+        "ICT201": {"credits": 3, "available": [1,3,5], "type": "core"},
+        "BSC203 ": {"credits": 3, "available": [1,3,5], "type": "core"},
+        "ICT302": {"credits": 3, "available": [1,2,3,4,5,6], "type": "core"},
+        "MAS162": {"credits": 3, "available": [1,2,3,4,5,6], "type": "major"},
+        "ICT167": {"credits": 3, "available": [2,4,6], "type": "major"},
+        "ICT284": {"credits": 3, "available": [1,3,5], "type": "major"},
+        "ICT285": {"credits": 3, "available": [2,4,6], "type": "major"},
+        "ICT202": {"credits": 3, "available": [1,3,5], "type": "major"},
+        "ICT203": {"credits": 3, "available": [2,4,6], "type": "major"},
+        "ICT304": {"credits": 3, "available": [1,3,5], "type": "major"},
+        "ICT305": {"credits": 3, "available": [2,4,6], "type": "major"},
+        "GAD164": {"credits": 3, "available": [1,2,3,4,5,6], "type": "elective"},
+        "GAD365": {"credits": 3, "available": [2,4,6], "type": "elective"},
+        "ICT393": {"credits": 3, "available": [2,4,6], "type": "elective"},
+        "GAD241": {"credits": 3, "available": [1,3,5], "type": "elective"},
+        "AST100": {"credits": 3, "available": [1,3,5], "type": "elective"},
+        "BUS106": {"credits": 3, "available": [2,4,6], "type": "elective"}
+        
+    },
+"prerequisites": {
+    "ICT167": ["ICT159"],
+    "ICT284": ["ICT159"],
+    "ICT285": ["ICT159", "ICT170"],
+    "ICT203": ["ICT159", "ICT167"],
+    "ICT202": ["ICT159", "ICT167"],
+    "ICT304": ["ICT202"],
+    "ICT305": ["ICT202"],
+    "ICT393":["ICT284","ICT231"]
+},
+    "parameters": {
+        "Total_Semesters": 6,
+         "Min_Credits_Sem": 12,
+         "Max_Credits_Sem": 12,
+         "Min_Units_Sem": 4,
+         "Max_Units_Sem": 4,
+        "IDEAL_MIN_MAX": 12
+    }
+}
